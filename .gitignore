@@ -6,3 +6,4 @@ pipery.jsonl
 dist/
 test-project/dist/
 test-project/target/
+*.bak
