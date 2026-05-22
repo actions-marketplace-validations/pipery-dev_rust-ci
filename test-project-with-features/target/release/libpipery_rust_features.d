@@ -1,0 +1,1 @@
+/home/runner/work/pipery-rust-ci/pipery-rust-ci/test-project-with-features/target/release/libpipery_rust_features.rlib: /home/runner/work/pipery-rust-ci/pipery-rust-ci/test-project-with-features/src/lib.rs
