@@ -1,0 +1,16 @@
+[package]
+name = "pipery-rust-features"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = []
+shout = []
+
+[lib]
+name = "pipery_rust_features"
+path = "src/lib.rs"
+
+[[bin]]
+name = "pipery-rust-features"
+path = "src/main.rs"

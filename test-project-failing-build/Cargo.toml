@@ -1,0 +1,8 @@
+[package]
+name = "pipery-rust-failing-build"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "pipery-rust-failing-build"
+path = "src/main.rs"
