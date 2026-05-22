@@ -25,4 +25,23 @@ jobs:
       - uses: pipery-dev/pipery-rust-ci@v1
         with:
           project_path: .
+          config_file: .pipery/config.yaml
+          rust_toolchain: stable
+          tests_path: 
+          features: 
+          target: 
+          github_token: 
+          version_bump: patch
+          log_file: pipery.jsonl
+          target_branch: main
+          crates_token: 
+          skip_sast: false
+          skip_sca: false
+          skip_lint: false
+          skip_build: false
+          skip_test: false
+          skip_versioning: false
+          skip_packaging: false
+          skip_release: false
+          skip_reintegration: false
 ```
