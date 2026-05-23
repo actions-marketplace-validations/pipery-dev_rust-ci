@@ -6,6 +6,7 @@ inputs:
   features: shout
   skip_sast: "true"
   skip_sca: "true"
+  skip_packaging: "true"
   skip_release: "true"
   skip_versioning: "true"
   skip_reintegration: "true"

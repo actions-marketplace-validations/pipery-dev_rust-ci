@@ -8,7 +8,7 @@ cd "$PROJECT"
 
 mkdir -p dist
 
-cargo package --no-verify --allow-dirty 2>/dev/null || cargo package --allow-dirty
+cargo package --no-verify --allow-dirty || cargo package --allow-dirty
 
 find target/package -maxdepth 1 -name '*.crate' -exec cp {} dist/ \; 2>/dev/null || true
 
