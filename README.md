@@ -7,7 +7,7 @@ CI pipeline for Rust: SAST, SCA, lint, build, test, versioning, packaging, relea
 - Owner: `pipery-dev`
 - Repository: `pipery-rust-ci`
 - Marketplace category: `continuous-integration`
-- Current version: `1.0.2`
+- Current version: `1.1.0`
 
 ## Usage
 
